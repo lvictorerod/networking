@@ -18,7 +18,7 @@ namespace Client336
             {
                 TcpClient tcpclnt = new TcpClient();
                 Console.WriteLine("Connecting.....");
-                tcpclnt.Connect("10.18.227.162", 8001);                
+                tcpclnt.Connect("127.0.0.1", 8001);                
                 Console.WriteLine("Connected");
                 Console.Write("Enter the string to be transmitted : ");
                 String str = Console.ReadLine();

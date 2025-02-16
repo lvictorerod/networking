@@ -16,7 +16,7 @@ namespace Server336
         {
             try
             {
-                IPAddress ipAd = IPAddress.Parse("10.18.227.162");
+                IPAddress ipAd = IPAddress.Parse("127.0.0.1");
                 TcpListener myList = new TcpListener(ipAd, 8001);
                 myList.Start();
                 Console.WriteLine("The server is running at port 8001...");
